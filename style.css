@@ -1,0 +1,264 @@
+
+/* GENERAL PROPERTIES */
+@font-face{
+    font-family: questrial;
+    src: url(./Questrial-Regular.ttf);
+}
+
+
+body{
+    font-family: questrial;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerDiv1{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+     
+}
+
+.blackHeartImg{
+    width: 15px;
+    height: 5px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+.headerDiv2{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 40px;
+}
+
+.aInHeaderDiv2{
+    padding: 0px 0.5vw;
+}
+
+
+/* NAV BAR */
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding:0px 0vw 0.5vh 3vw;
+    
+}
+.npmLogoImg{
+    width: 40px;
+    height: 15px;
+    padding-right: 1vw;
+}
+
+.searchBlock{
+    display: flex;
+}
+
+
+.searchBar{
+    display:flex;
+    align-items: center;
+    background-color: rgb(242, 242, 242) ;
+    height: 30px;
+    color: #AAAAAA;
+    width: 75vw;
+}
+
+.magGlassImg{
+    width: 15px;
+    height: 15px;
+    padding-left: 1vw;
+}
+.inputSearchButton{
+    border: none;
+    background-color: transparent;
+    margin: 0px;
+}
+
+.searchButton{
+    background-color: #FB3E44;
+    border: none;
+    padding: 7px;
+    color: white;
+}
+
+.joinButton{
+    background-color: white;
+    padding: 3px 12px;
+    border: 1px solid rgba(184, 184, 184, 0.425);
+    color: gray;
+}
+
+
+.logInButton{
+    background-color: white;
+    padding: 3px 12px;
+    border: none;
+    color: rgb(156, 148, 148);
+}
+
+
+
+
+/* SECTION 1 */
+.firstSection h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.firstSection p{
+    width: 25vw;
+}
+
+.firstSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#F8F4F4;
+    padding-bottom: 10vh;
+}
+
+.firstSecButtons{
+    display: flex;
+
+
+}
+
+.seePlansButton{
+    padding: 10px 55px;
+    border: none;
+    background-color: #FB3E44;
+    color: white;
+    font-weight: 600;
+    box-shadow: 2px 0px 0px 10px solid  rgb(216, 147, 158);
+    margin-right: 1vw;
+}
+
+.JoinForFreeButton{
+    padding: 10px 55px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    margin-left: 1vw;
+}
+
+
+
+
+
+/* SECTION 2 */
+.secondSection{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.bringTheBest h3{
+    font-size: 25px;
+    background-color: #FFEBB5;
+}
+
+.section2Paragraph{
+    font-size: 11px;
+    width: 35vw;
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+    align-items: center;
+    align-content: space-around;
+}
+.fourColumnsInFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+}
+
+.fourColumnsInFooter p{
+    font-size: 15px;
+}
+
+.fourColumnsInFooter h3{
+    font-size: 15px;
+    color: #FB3E44;
+}
+
+.zeroConfigImg{
+    width: 25px;
+}
+.fisrtColumn{
+    display: flex;
+    flex-direction: column;
+    width:15vw;
+    padding: 0px 2vw ;
+}
+
+.teamManagImg{
+    width: 25px;
+}
+
+.secondColumn{
+    display: flex;
+    flex-direction: column;
+    width:15vw;
+    padding: 0px 2vw ;
+}
+
+.familiarFeatImg{
+    width: 25px;
+}
+
+.tirdColumn{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    padding: 0px 2vw ;
+}
+
+.npmAuditImg{
+    width: 25px;
+}
+
+.fourthColumn{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    padding: 0px 2vw ;
+}
+
+
+
+/*  LAST BUTTON */
+
+.createAnOrgButto{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 80px;
+    font-weight: bold;
+}
+
